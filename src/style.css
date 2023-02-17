@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #34495e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.color-container {
+  display: flex;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.imgShort {
+  width: 300px;
+  height: 300px;
+}
